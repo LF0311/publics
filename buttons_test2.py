@@ -182,7 +182,6 @@ if button1:
     while True:
         if button2 or button3 or button4 or button5 or button6:
             # st.markdown('终止发送')
-            sock.close()
             print('终止发送')
             break
         else:
@@ -409,7 +408,6 @@ if button3:
         # st.markdown(button2)
         if button1 or button2 or button4 or button5 or button6:
             # st.markdown('终止发送')
-            sock.close()
             print('终止发送Button3')
             break
         else:
@@ -534,7 +532,6 @@ if button4:
         # st.markdown(button2)
         if button1 or button2 or button3 or button5 or button6:
             # st.markdown('终止发送')
-            sock.close()
             print('终止发送Button4')
             break
         else:
@@ -659,7 +656,6 @@ if button5:
         # st.markdown(button2)
         if button1 or button2 or button3 or button4 or button6:
             # st.markdown('终止发送')
-            sock.close()
             print('终止发送Button5')
             break
         else:
@@ -784,7 +780,6 @@ if button6:
         # st.markdown(button2)
         if button1 or button2 or button3 or button4 or button5:
             # st.markdown('终止发送')
-            sock.close()
             print('终止发送Button6')
             break
         else:
